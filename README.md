@@ -26,6 +26,8 @@ A powerful and modular application for **automatic label inspection** using Pyth
 - `Model File/` – `SKU List.ini` (reference SKUs), `sku_variants.json` (auto-learned variants).
 - `.EasyOCR/model/` – OCR model files (`craft_mlt_25k.pth`, `latin_g2.pth`).
 
+
+
 Label Check App/
 │
 ├── config.py
@@ -49,6 +51,8 @@ Label Check App/
 └── model/
 ├── craft_mlt_25k.pth
 └── latin_g2.pth
+
+
 
 ## How it works
 
