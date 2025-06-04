@@ -1,0 +1,8 @@
+easyocr
+ultralytics
+opencv-python
+Pillow
+numpy
+watchdog
+zxing-cpp
+pyinstaller
