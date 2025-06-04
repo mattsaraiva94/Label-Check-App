@@ -1,5 +1,3 @@
-Main.py
-
 import os
 import logging
 import cv2
