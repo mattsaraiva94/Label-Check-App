@@ -29,24 +29,31 @@ A powerful and modular application for **automatic label inspection** using Pyth
 
 
 Label Check App/
-│
+
 ├── config.py
+
 ├── gmes_check.py
+
 ├── gui.py
+
 ├── main.py
+
 ├── ocr_utils.py
+
 ├── validation.py
+
 ├── requirements.txt
+
 ├── LabelCheckApp.spec
-│
+
 ├── YOLO/
 │   ├── yolo_label_detector.pt
 │   └── yolo_field_detector.pt
-│
+
 ├── Model File/
 │   ├── SKU List.ini
 │   └── sku_variants.json
-│
+
 └── .EasyOCR/
 └── model/
 ├── craft_mlt_25k.pth
