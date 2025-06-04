@@ -26,6 +26,30 @@ A powerful and modular application for **automatic label inspection** using Pyth
 - `Model File/` – `SKU List.ini` (reference SKUs), `sku_variants.json` (auto-learned variants).
 - `.EasyOCR/model/` – OCR model files (`craft_mlt_25k.pth`, `latin_g2.pth`).
 
+Label Check App/
+│
+├── config.py
+├── gmes_check.py
+├── gui.py
+├── main.py
+├── ocr_utils.py
+├── validation.py
+├── requirements.txt
+├── LabelCheckApp.spec
+│
+├── YOLO/
+│   ├── yolo_label_detector.pt
+│   └── yolo_field_detector.pt
+│
+├── Model File/
+│   ├── SKU List.ini
+│   └── sku_variants.json
+│
+└── .EasyOCR/
+└── model/
+├── craft_mlt_25k.pth
+└── latin_g2.pth
+
 ## How it works
 
 1. **SKU is automatically selected** from the G-MES log file.
@@ -34,12 +58,31 @@ A powerful and modular application for **automatic label inspection** using Pyth
 4. **If a field fails**, in debug mode, user can approve as variant for future auto-approval (self-learning).
 5. **Results and logs are saved** for review.
 
-## Setup
+## 🖥️ Installation & Setup
 
 1. Download or clone this repository.
 2. Make sure you have Python 3.8+ and required dependencies from `requirements.txt`.
 3. Place model files and config files as shown in the structure.
 4. Run `gui.py` for the graphical interface.
+
+
+**Requirements:**
+- Windows 10+ (tested), Python 3.8+ (for development), or use the provided executable
+- No internet required after install
+
+### **Running as EXE**
+
+1. **Download or copy** the entire project folder structure (including models and data files) to the target machine.
+2. **Run** the `gui.exe` executable from the `dist/gui/` folder (or the installed path if you used a setup installer).
+3. **No Python installation required** — all dependencies are bundled.
+
+### **Development Mode (Python Source)**
+
+1. Install Python 3.8+ and [pip](https://pip.pypa.io/en/stable/installation/).
+2. Clone this repository or copy all files to your project directory.
+3. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
 
 ## License
 
