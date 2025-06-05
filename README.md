@@ -76,11 +76,6 @@ Label Check App/
 3. Place model files and config files as shown in the structure.
 4. Run `gui.py` for the graphical interface.
 
-
-**Requirements:**
-- Windows 10+ (tested), Python 3.8+ (for development), or use the provided executable
-- No internet required after install
-
 ### **Running as EXE**
 
 1. **Download or copy** the entire project folder structure (including models and data files) to the target machine.
